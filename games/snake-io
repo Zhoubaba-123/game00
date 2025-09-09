@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>snake.io - Play Online</title>
+  <link rel="canonical" href="https://game00.online/games/snake-io">
+  <meta name="description" content="Play snake.io online for free. Enjoy this classic snake game directly in your browser on PC and mobile.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Analytics GA4 -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K6DNY2E880"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-K6DNY2E880');
+  </script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Container -->
+  <div class="max-w-4xl mx-auto px-4 py-8">
+
+    <!-- Game Title -->
+    <h1 class="text-4xl font-bold text-center text-gray-900 mb-4">snake.io</h1>
+
+    <!-- One-line intro -->
+    <p class="text-center text-lg text-gray-700 mb-8">Experience the classic snake game online, directly in your browser.</p>
+
+    <!-- Game Iframe -->
+    <div class="w-full aspect-video mb-8">
+      <iframe 
+        src="https://www.crazygames.com/embed/snake-io" 
+        frameborder="0" 
+        allowfullscreen 
+        class="w-full h-full rounded-xl shadow-lg">
+      </iframe>
+    </div>
+
+    <!-- Game Description -->
+    <section class="space-y-6">
+      <h2 class="text-2xl font-semibold text-gray-900">About snake.io</h2>
+      <p class="text-gray-700 leading-relaxed">
+        snake.io is a fun and addictive online multiplayer game where you control a snake, grow longer by eating pellets, and compete against players worldwide. The goal is to become the largest snake on the leaderboard.
+      </p>
+
+      <h2 class="text-2xl font-semibold text-gray-900">How to Play</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Use your mouse or touch screen to navigate your snake. Avoid colliding with other snakes, and strategically outmaneuver your opponents to survive and grow.
+      </p>
+
+      <h2 class="text-2xl font-semibold text-gray-900">Features</h2>
+      <ul class="list-disc list-inside text-gray-700 leading-relaxed">
+        <li>Multiplayer gameplay in real-time.</li>
+        <li>Simple controls, easy to learn.</li>
+        <li>Responsive design for PC and mobile devices.</li>
+        <li>Fun, competitive, and addictive.</li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
